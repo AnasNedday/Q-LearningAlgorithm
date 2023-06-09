@@ -1,10 +1,8 @@
-package org.example.sequential;
+package org.nedday.sequential;
 
-import java.util.Arrays;
 import java.util.Random;
 
 public class Qlearning {
-
     // Q Learning Utils
     private final double ALPHA = 0.1;
     private final double GAMMA = 0.9;

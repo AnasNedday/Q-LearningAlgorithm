@@ -5,14 +5,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0039670a-67b7-45ab-945e-9eaea4e64321" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/APDescription.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MTPs-Main-Container.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jade.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/nedday/SMA/MainContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/nedday/SMA/MasterAgent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/nedday/SMA/QLUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/nedday/SMA/QlearningAgent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/nedday/SMA/SimpleContainer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/sequential/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/sequential/AppTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/sequential/QLearning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/sequential/Qlearning.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/nedday/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/sequential/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/nedday/sequential/AppTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/sequential/Qlearning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/nedday/sequential/Qlearning.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28,26 +44,59 @@
     </option>
   </component>
   <component name="ProjectId" id="2QtHDTRgtYJzaa2iyEeVpTBCNvf" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/Users/nedday/Downloads/QLearning",
-    "nodejs_package_manager_path": "npm"
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.27126437"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.SimpleContainer">
     <configuration name="AppTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.sequential.AppTest" />
+      <option name="MAIN_CLASS_NAME" value="org.nedday.sequential.AppTest" />
       <module name="QLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.sequential.*" />
+          <option name="PATTERN" value="org.nedday.sequential.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainContainer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.nedday.SMA.MainContainer" />
+      <module name="QLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.nedday.SMA.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleContainer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.nedday.SMA.SimpleContainer" />
+      <module name="QLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.nedday.SMA.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -57,6 +106,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SimpleContainer" />
+        <item itemvalue="Application.MainContainer" />
         <item itemvalue="Application.AppTest" />
       </list>
     </recent_temporary>
@@ -70,7 +121,7 @@
       <option name="presentableId" value="Default" />
       <updated>1686165840674</updated>
       <workItem from="1686165843967" duration="7664000" />
-      <workItem from="1686251845570" duration="2814000" />
+      <workItem from="1686251845570" duration="6412000" />
     </task>
     <servers />
   </component>
@@ -87,5 +138,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
